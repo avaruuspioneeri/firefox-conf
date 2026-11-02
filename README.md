@@ -17,7 +17,7 @@ Tarkoituksena ei ole tehdä Firefoxista mitään Tor-selaimen korviketta. Tor on
 
 Asetukset vaikuttavat ainoastaan siihen Firefox-profiiliin, johon tiedosto asennetaan. Jos käytössäsi on useita profiileja, asenna konffi erikseen jokaiseen haluamaasi profiiliin.
 
-Huomaa myös, että yrityksen tai muun organisaation hallinnoimassa Firefox-asennuksessa hallintakäytännöt voivat ajaa näiden asetusten yli. Lisäksi osa asetuksista voi muuttua tai lakata toimimasta Firefoxin päivitysten yhteydessä. Tämä ei ole mikään ikuisesti toimiva taikakonffi, mutta pyrin päivittämään tätä päivitysten mukaan reaaliajassa.
+Kannattaa muistaa yrityksen tai muun organisaation hallinnoimassa Firefox-asennuksessa hallintakäytännöt voivat ajaa näiden asetusten yli. Lisäksi osa asetuksista voi muuttua tai lakata toimimasta Firefoxin päivitysten yhteydessä. Tämä ei ole mikään ikuisesti toimiva taikakonffi, mutta pyrin päivittämään tätä päivitysten mukaan reaaliajassa.
 
 ## Mitä tämä tekee?
 
@@ -30,9 +30,7 @@ Huomaa myös, että yrityksen tai muun organisaation hallinnoimassa Firefox-asen
 | Verkkotunnukset | Kansainvälisten verkkotunnusten näyttäminen punycode-muodossa | Samannäköisiä erikoismerkkejä sisältävät huijausdomainit ovat helpommin havaittavissa, vaikka osoitteet muuttuvatkin rumemmiksi lukea. |
 | Firefoxin tiedonkeruu | Telemetrian ja tutkimusten vähentäminen | Firefox lähettää vähemmän ylimääräistä tietoa. Päivitys- ja Safe Browsing -pyyntöjä tämä ei kuitenkaan poista. |
 
-Tämä ei tee selaimesta haavoittumatonta. Suojauslistat eivät tunne kaikkia uhkia, seurannan esto ei estä kaikkea sormenjälkitunnistusta eikä HTTPS tee huijaussivustosta luotettavaa.
-
-Kyse on riskien vähentämisestä, ei mistään maagisesta tietoturvakuplasta.
+Suojauslistat eivät tunne kaikkia uhkia, seurannan esto ei estä kaikkea sormenjälkitunnistusta eikä HTTPS tee huijaussivustosta luotettavaa. Tarkoitus on vain vähentää riskejä.
 
 ## Jos jokin sivusto hajoaa
 
@@ -73,6 +71,7 @@ Mikään `user.js` ei korvaa normaaleja tietoturvakäytäntöjä. Selaimen asetu
 - **Älä ohita varoituksia.** Varmenne- ja latausvaroitukset ovat olemassa syystä. HTTPS kertoo yhteyden olevan salattu kyseiseen verkkotunnukseen, ei sitä, että verkkosivusto olisi jotenkin automaattisesti luotettava.
 - **Erota eri käyttötarkoitukset.** Jos käsittelet arkaluonteisia asioita, erillinen Firefox-profiili on ihan järkevä ratkaisu.
 - **Älä kuvittele olevasi anonyymi.** Tämä konffi ei tarjoa anonymiteettiä, VPN-yhteyttä eikä Torin kaltaista suojaa. IP-osoitteesi ja selaimesi ominaisuudet voivat edelleen paljastua verkkosivustoille. WebRTC on jätetty käyttöön yhteensopivuuden vuoksi, ja se voi paljastaa verkkotietoja.
+- **Muista laajennukset** Suosittelen uBlock Originia, PrivacyBadgeria sekä aiemmin mainittua Bitwardenia. 
 
 Firefoxin tehostetun seurannan suojauksen **Tiukka**-tila tarjoaa valmiiksi ylläpidetyn suojakokonaisuuden. Tämä konffi ei kuitenkaan ole sama asia kuin kyseisen tilan valitseminen, eikä sen asentaminen takaa, että Firefoxin käyttöliittymässä näkyy Tiukka-vaihtoehto aktiivisena.
 
